@@ -1,0 +1,31 @@
+
+BC639 (ECB) [ALL]
+--or--
+2N5088 (EBC)[ALL]  *
+--oroo
+2SC732TM-GR [Q1-Q3]
+2SC945-P [Q4-Q5]
+
+2SK30A-Y [Q9 N JFET]
+1S2473/1S1588 [D1,D2,D3,D4,D5,D8] - D3 replaced with wire jumper
+              D1 may be better as a 1N5817 Schottky
+RD5.1EB [D6 5.1V 500mW zener]
+RD11EB [D6 11V 500mW zener]
+
+uPC4558C/JRC4558D [IC1]
+TL022LP  [IC2]
+MN3007   [IC3] Xvive
+MN3101   [IC4] Cabintech
+(Can use MN3207 / MN2102, but power reais are swapped)
+
+Setup:
+Turn the Rate knob fully counterclockwise (min.) and the Depth knob
+fully clockwise (max.). Feed a 200Hz, +3dBm sine signal into the
+input. Connect an oscilloscope to the emitter of Q3 and turn VR3 until
+you'll get a centered operating point (a symmetrical sine wave,
+equally clipped at top and bottom). 
+https://www.hobby-hour.com/electronics/s/boss-ce2-chorus-schematic.php#google_vignette
+
+
+
+https://aionfx.com/app/files/docs/azure_documentation.pdf
